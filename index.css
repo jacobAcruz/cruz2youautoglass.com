@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.home-buttons {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-right: 40px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.home-buttons li {
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#b1,
+#b2,
+#b3,
+#Logo {
+    outline: none; /* Remove the focus outline */
+    user-select: none; /* Prevent text selection */
+}
+
+#b1:focus,
+#b2:focus,
+#b3:focus,
+#Logo:focus {
+    outline: none; /* Ensure no outline is shown on focus */
+}
